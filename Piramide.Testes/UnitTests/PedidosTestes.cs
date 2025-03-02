@@ -32,8 +32,8 @@ namespace Piramide.Testes.UnitTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId=1,Quantidade=10, PrecoUnitario=30});
-            pedido.Itens.Add( new PedidoItem { ProdutoId=2,Quantidade=60, PrecoUnitario = 26});
+            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 10, PrecoUnitario = 30 });
+            pedido.Itens.Add(new PedidoItem { ProdutoId = 2, Quantidade = 60, PrecoUnitario = 26 });
 
             Assert.Equal(80, pedido.CalcularTotal());
         }
