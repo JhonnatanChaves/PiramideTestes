@@ -1,0 +1,20 @@
+1 . Criação do projeto principal:
+
+  - dotnet new sln -n PiramideTestes
+  - dotnet new classlib -n Piramide.Core
+
+2. Criação do projeto de testes:
+
+  - dotnet new xunit -n Piramide.Tests
+
+3. Adicionando os projetos à solução:
+
+  - dotnet sln add Piramide.Core/Piramide.Core.csproj
+  - dotnet sln add Piramide.Testes/Piramide.Testes.csproj
+
+4. Instalando pacotes necessários:
+
+  - dotnet add Piramide.Testes package SpecFlow.XUnit
+  - dotnet add Piramide.Testes package SpecFlow.Tools.MsBuild.Generation
+  - dotnet add Piramide.Testes package Moq
+  - dotnet add Piramide.Testes package coverlet.collector
