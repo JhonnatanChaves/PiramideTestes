@@ -15,6 +15,7 @@ namespace Piramide.Core.Domain
         {
             return Itens.Sum(item => item.CalcularSubtotal());
         }
+
         public bool ValidarPedido()
         {
             return Itens.Count > 0 && Itens.All(item => item.Quantidade > 0);

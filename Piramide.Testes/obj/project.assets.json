@@ -1686,6 +1686,16 @@
         "build": {
           "build/net6.0/xunit.runner.visualstudio.props": {}
         }
+      },
+      "Piramide.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Piramide.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Piramide.Core.dll": {}
+        }
       }
     }
   },
@@ -5407,12 +5417,18 @@
         "xunit.runner.visualstudio.2.8.2.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "Piramide.Core/1.0.0": {
+      "type": "project",
+      "path": "../Piramide.Core/Piramide.Core.csproj",
+      "msbuildProject": "../Piramide.Core/Piramide.Core.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "Microsoft.NET.Test.Sdk >= 17.11.1",
       "Moq >= 4.20.72",
+      "Piramide.Core >= 1.0.0",
       "SpecFlow.Tools.MsBuild.Generation >= 3.9.74",
       "coverlet.collector >= 6.0.4",
       "xunit >= 2.9.2",
@@ -5450,7 +5466,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pirâmide de testes\\PiramideTestes\\Piramide.Core\\Piramide.Core.csproj": {
+              "projectPath": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pirâmide de testes\\PiramideTestes\\Piramide.Core\\Piramide.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
