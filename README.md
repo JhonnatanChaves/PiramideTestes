@@ -1,4 +1,4 @@
-# 🏗️ Pirâmide de Testes 🚀
+# 🔺 Pirâmide de Testes 🚀
 
 Este projeto visa colocar em prática os aprendizados do curso  
 **"Construindo uma Pirâmide de Testes com .NET: Estratégias e Implementação Prática"**.  
@@ -33,32 +33,31 @@ A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negó
 
 ---
 
-## 🔺 PiramideTestes
+## 📂 **Estrutura do Projeto**
 
-📂 **PiramideTestes/**
-
-├── 📁 **Piramide.Core/**  
-│   ├── 📂 **Dominio/**  
-│   │   ├── **Produto.cs**  
-│   │   ├── **ProdutoItem.cs**  
-│   ├── 📄 **Pyramid.Core.csproj**  
-│  
-├── 📁 **Piramide.Testes/**  
-│   ├── 📄 **Pyramid.Testes.csproj**  
-│   ├── 📂 **1-UnitTests/**  
-│   │   ├── **PedidosTestes.cs**  
-│   ├── 📂 **2-IntegrationTests/**  
-│   │   ├── **PedidoTestesIntegracao.cs**  
-│   ├── 📂 **3-SystemTests/**  
-│   │   ├── **TestesSistema.cs**  
-│   ├── 📂 **4-Features/**  
-│   │   ├── **Pedido.feature**  
-│   ├── 📂 **5-Steps/**  
-│   │   ├── **PedidoSteps.cs**  
-│   ├── 📂 **6-TestResults/**  
-│   │   ├── **TestResults.trx**  
-│  
-├── 📄 **PiramideTestes.sln**  
+PiramideTestes/
+├── **Pyramid.Core/**             # Biblioteca de classes principal
+│   ├── **Dominio/**              # Pasta de domínio
+│   │   ├── Produto.cs            # Classe Produto
+│   │   ├── ProdutoItem.cs        # Classe ProdutoItem
+│   ├── Pyramid.Core.csproj       # Arquivo do projeto Core
+│
+├── **Pyramid.Testes/**           # Projeto de testes automatizados
+│   ├── Pyramid.Testes.csproj     # Arquivo do projeto de testes
+│   ├── **1-UnitTests/**          # Testes unitários
+│   │   ├── PedidosTestes.cs      # Testes unitários para pedidos
+│   ├── **2-IntegrationTests/**   # Testes de integração
+│   │   ├── PedidoTestesIntegracao.cs  # Testes de integração para pedidos
+│   ├── **3-SystemTests/**        # Testes de sistema
+│   │   ├── TestesSistema.cs      # Testes completos do sistema
+│   ├── **4-Features/**           # Testes BDD com SpecFlow
+│   │   ├── Pedido.feature        # Arquivo de especificação do pedido
+│   ├── **5-Steps/**              # Implementação dos passos dos testes BDD
+│   │   ├── PedidoSteps.cs        # Passos dos testes do pedido
+│   ├── **6-TestResults/**        # Diretório para resultados de testes
+│   │   ├── TestResults.trx       # Arquivo de relatório de testes gerado
+│
+├── PiramideTestes.sln            # Solução do projeto
 
 ---
 
