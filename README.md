@@ -68,7 +68,7 @@ PiramideTestes/
 
 ---
 
-##🚀 **Bora testar?** 💪✨
+## 🚀 **Bora testar?** 💪✨
 
 Para a execução do projeto de Piramide.Testes use uma das seguintes opções:
 
