@@ -37,7 +37,7 @@ A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negó
 
 ## 🔺 PiramideTestes
 
-```
+
 PiramideTestes/
 
 ├── **Pyramid.Core/**                                         # 📚 Biblioteca de classes principal  
@@ -68,7 +68,7 @@ PiramideTestes/
 │   │   ├── 📄 TestResults.trx      
 │  
 ├── 📄 PiramideTestes.sln                                     # Solução do projeto  
-```
+
 
 ---
 
