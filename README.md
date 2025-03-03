@@ -1,7 +1,6 @@
 # 🔺 Pirâmide de Testes 🚀
 
-Este projeto visa colocar em prática os aprendizados do curso  
-**"Construindo uma Pirâmide de Testes com .NET: Estratégias e Implementação Prática"**.  
+Este projeto visa colocar em prática os aprendizados do curso **Construindo uma Pirâmide de Testes com .NET: Estratégias e Implementação Prática**.  
 
 ## 🛒 Sobre a Aplicação  
 A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negócio incluem:  
