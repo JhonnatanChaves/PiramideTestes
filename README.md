@@ -36,6 +36,7 @@ A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negó
 ## 📂 **Estrutura do Projeto**
 
 PiramideTestes/
+
 ├── **Pyramid.Core/**             # Biblioteca de classes principal
 │   ├── **Dominio/**              # Pasta de domínio
 │   │   ├── Produto.cs            # Classe Produto
