@@ -8,6 +8,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Features\**" />
+    <Compile Remove="Steps\**" />
+    <EmbeddedResource Remove="Features\**" />
+    <EmbeddedResource Remove="Steps\**" />
+    <None Remove="Features\**" />
+    <None Remove="Steps\**" />
+    <SpecFlowFeatureFiles Remove="Features\**" />
+    <SpecFlowFeatureFiles Remove="Steps\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Features\**" />
+    <SpecFlowObsoleteCodeBehindFiles Remove="Steps\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="coverlet.collector" Version="6.0.4">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
@@ -22,12 +35,6 @@
 
   <ItemGroup>
     <Using Include="Xunit" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Features\" />
-    <Folder Include="TestResults\" />
-    <Folder Include="Steps\" />
   </ItemGroup>
 
   <ItemGroup>

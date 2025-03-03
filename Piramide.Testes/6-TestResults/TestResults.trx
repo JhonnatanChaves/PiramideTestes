@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="9b202127-d405-4b2b-bede-7f44e6e8736e" name="Jhonnatan@DESKTOP-6RCDPBB 2025-03-03 18:35:12" runUser="DESKTOP-6RCDPBB\Jhonnatan" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2025-03-03T18:35:12.4427750-03:00" queuing="2025-03-03T18:35:12.4427752-03:00" start="2025-03-03T18:35:11.4665452-03:00" finish="2025-03-03T18:35:12.4832648-03:00" />
+  <TestSettings name="default" id="1aeb403a-7e4a-4fd2-97fe-91f66afa5aaa">
+    <Deployment runDeploymentRoot="Jhonnatan_DESKTOP-6RCDPBB_2025-03-03_18_35_12" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="a637e27f-1f17-436b-9138-3eb6c3c94154" testId="e7794714-0393-8fe9-8489-64f214e479ab" testName="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_ComValorAlto_DeveAplicarFreteGratis" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0002817" startTime="2025-03-03T18:35:12.3531876-03:00" endTime="2025-03-03T18:35:12.3531877-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a637e27f-1f17-436b-9138-3eb6c3c94154" />
+    <UnitTestResult executionId="87a64dd0-3518-4d1d-8f37-e51a93f1a51e" testId="2496a990-644d-c366-4c0c-441535abcbac" testName="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_ComItemZero_Quantidade_DeveSerInvalido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0001118" startTime="2025-03-03T18:35:12.3534238-03:00" endTime="2025-03-03T18:35:12.3534239-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="87a64dd0-3518-4d1d-8f37-e51a93f1a51e" />
+    <UnitTestResult executionId="94ce76dd-b9bd-4d89-a92a-956247c8e121" testId="0ce555bd-96fe-91ea-33cd-64c2ed3683ef" testName="Piramide.Testes._3_SystemTests.TestesSistema.CriarPedido_ComMultiplosItens_DeveCalcularTotalCorretamente" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0002572" startTime="2025-03-03T18:35:12.3534825-03:00" endTime="2025-03-03T18:35:12.3534826-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="94ce76dd-b9bd-4d89-a92a-956247c8e121" />
+    <UnitTestResult executionId="546801d8-b5db-4b22-a1c2-529859c8b944" testId="83c8436d-da29-4a42-ee89-2402147076b9" testName="Criar Pedido Válido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0019262" startTime="2025-03-03T18:35:12.3540408-03:00" endTime="2025-03-03T18:35:12.3540409-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="546801d8-b5db-4b22-a1c2-529859c8b944">
+      <Output>
+        <StdOut>Dado que eu tenha um novo pedido&#xD;
+-&gt; done: PedidoSteps.DadoQueEuTenhaUmNovoPedido() (0,0s)&#xD;
+Quando eu adicionar um item com quantidade 3 e preço unitário de 40&#xD;
+-&gt; done: PedidoSteps.QuandoEuAdicionarUmItem(3, 40) (0,0s)&#xD;
+Então o valor total do pedido deve ser 120&#xD;
+-&gt; done: PedidoSteps.EntaoOValorTotalDoPedidoDeveSer(120) (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="54caa59a-dbf0-4f0a-8888-c6e7738c01ed" testId="7e45332c-2b19-b828-6806-f9afc3858a97" testName="Pedido com Item de Quantidade Zero" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0397664" startTime="2025-03-03T18:35:12.3536904-03:00" endTime="2025-03-03T18:35:12.3536905-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="54caa59a-dbf0-4f0a-8888-c6e7738c01ed">
+      <Output>
+        <StdOut>Dado que eu tenha um novo pedido&#xD;
+-&gt; done: PedidoSteps.DadoQueEuTenhaUmNovoPedido() (0,0s)&#xD;
+Quando eu adicionar um item com quantidade 0 e preço unitário de 50&#xD;
+-&gt; done: PedidoSteps.QuandoEuAdicionarUmItem(0, 50) (0,0s)&#xD;
+Então o pedido deve ser considerado inválido&#xD;
+-&gt; done: PedidoSteps.EntaoOPedidoDeveSerConsideradoInvalido() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="9f2edb45-ea9e-4039-a921-72227dcc4135" testId="85b799a7-5124-560f-d140-8da15b2fba31" testName="Pedido com Frete Grátis" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0008533" startTime="2025-03-03T18:35:12.3541660-03:00" endTime="2025-03-03T18:35:12.3541661-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9f2edb45-ea9e-4039-a921-72227dcc4135">
+      <Output>
+        <StdOut>Dado que eu tenha um novo pedido&#xD;
+-&gt; done: PedidoSteps.DadoQueEuTenhaUmNovoPedido() (0,0s)&#xD;
+Quando eu adicionar um item com quantidade 6 e preço unitário de 100&#xD;
+-&gt; done: PedidoSteps.QuandoEuAdicionarUmItem(6, 100) (0,0s)&#xD;
+Então o frete deve ser grátis&#xD;
+-&gt; done: PedidoSteps.EntaoOFreteDeveSerGratis() (0,0s)</StdOut>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="8f7ff68f-4cc0-4533-b048-a6150a535bcd" testId="173fd7f9-41ec-b51a-abe3-cb83c0aeecf9" testName="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_ComItens_DeveCalcularTotalCorretamente" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0001845" startTime="2025-03-03T18:35:12.3119334-03:00" endTime="2025-03-03T18:35:12.3119335-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="8f7ff68f-4cc0-4533-b048-a6150a535bcd" />
+    <UnitTestResult executionId="154a39cb-cece-413b-aeb2-d00dd93c0cdb" testId="b1cd5d42-2e2c-0ef6-22ef-16c964863ebc" testName="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_QuantidadeZero_DeveSerInvalido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0001127" startTime="2025-03-03T18:35:12.3117843-03:00" endTime="2025-03-03T18:35:12.3117844-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="154a39cb-cece-413b-aeb2-d00dd93c0cdb" />
+    <UnitTestResult executionId="1a8486c1-e4d8-4456-b5d5-dbbe167ea427" testId="816fa289-14fb-c6aa-d449-c566223e270f" testName="Piramide.Testes.UnitTests.PedidosTestes.Pedido_SemItens_DeveSerInvalido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0000810" startTime="2025-03-03T18:35:12.3113161-03:00" endTime="2025-03-03T18:35:12.3113162-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1a8486c1-e4d8-4456-b5d5-dbbe167ea427" />
+    <UnitTestResult executionId="935b4b56-6c91-42f4-b08f-f8da9f647aff" testId="77bbb999-888e-f129-ecd9-8c7e66b0efc0" testName="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_RemoverItem_DeveAtualizarTotal" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0113781" startTime="2025-03-03T18:35:12.3117339-03:00" endTime="2025-03-03T18:35:12.3117340-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="935b4b56-6c91-42f4-b08f-f8da9f647aff" />
+    <UnitTestResult executionId="a888553d-ccb7-436a-96b3-3beb548084e9" testId="7b340792-bb8d-535c-7798-38bd7a80e829" testName="Piramide.Testes.UnitTests.PedidosTestes.Pedido_ComItens_QuantidadeZero_DeveSerInvalido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0052113" startTime="2025-03-03T18:35:12.3076000-03:00" endTime="2025-03-03T18:35:12.3076187-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a888553d-ccb7-436a-96b3-3beb548084e9" />
+    <UnitTestResult executionId="ab87ef19-cc34-4499-a9c8-a2dbf9bedb62" testId="cc0602bb-7efe-fb9d-d620-bb1d8c8db52f" testName="Piramide.Testes.UnitTests.PedidosTestes.Pedido_CalcularTotal_DeveRetornarValorCorreto" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0024518" startTime="2025-03-03T18:35:12.3116992-03:00" endTime="2025-03-03T18:35:12.3116992-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ab87ef19-cc34-4499-a9c8-a2dbf9bedb62" />
+    <UnitTestResult executionId="6a988ac3-e49c-4e9f-aa3e-1a94f0d87542" testId="0d529578-bf85-6621-56f1-4827b8488531" testName="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_SemItens_DeveSerInvalido" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0000552" startTime="2025-03-03T18:35:12.3118521-03:00" endTime="2025-03-03T18:35:12.3118522-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6a988ac3-e49c-4e9f-aa3e-1a94f0d87542" />
+    <UnitTestResult executionId="fa6fc38d-b8ec-4316-bdc9-523d7f07ad60" testId="14e11f89-9879-52df-9b76-be71f3388440" testName="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_RemoverItem_DeveRecalcularTotal" computerName="DESKTOP-6RCDPBB" duration="00:00:00.0002495" startTime="2025-03-03T18:35:12.3124515-03:00" endTime="2025-03-03T18:35:12.3124519-03:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="fa6fc38d-b8ec-4316-bdc9-523d7f07ad60" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_ComItemZero_Quantidade_DeveSerInvalido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="2496a990-644d-c366-4c0c-441535abcbac">
+      <Execution id="87a64dd0-3518-4d1d-8f37-e51a93f1a51e" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._3_SystemTests.TestesSistema" name="Pedido_ComItemZero_Quantidade_DeveSerInvalido" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_QuantidadeZero_DeveSerInvalido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="b1cd5d42-2e2c-0ef6-22ef-16c964863ebc">
+      <Execution id="154a39cb-cece-413b-aeb2-d00dd93c0cdb" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao" name="Pedido_QuantidadeZero_DeveSerInvalido" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.UnitTests.PedidosTestes.Pedido_CalcularTotal_DeveRetornarValorCorreto" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="cc0602bb-7efe-fb9d-d620-bb1d8c8db52f">
+      <Execution id="ab87ef19-cc34-4499-a9c8-a2dbf9bedb62" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.UnitTests.PedidosTestes" name="Pedido_CalcularTotal_DeveRetornarValorCorreto" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_ComItens_DeveCalcularTotalCorretamente" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="173fd7f9-41ec-b51a-abe3-cb83c0aeecf9">
+      <Execution id="8f7ff68f-4cc0-4533-b048-a6150a535bcd" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao" name="Pedido_ComItens_DeveCalcularTotalCorretamente" />
+    </UnitTest>
+    <UnitTest name="Pedido com Frete Grátis" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="85b799a7-5124-560f-d140-8da15b2fba31">
+      <Execution id="9f2edb45-ea9e-4039-a921-72227dcc4135" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._4_Features.RealizarPedidoFeature" name="PedidoComFreteGratis" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_SemItens_DeveSerInvalido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="0d529578-bf85-6621-56f1-4827b8488531">
+      <Execution id="6a988ac3-e49c-4e9f-aa3e-1a94f0d87542" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao" name="Pedido_SemItens_DeveSerInvalido" />
+    </UnitTest>
+    <UnitTest name="Pedido com Item de Quantidade Zero" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="7e45332c-2b19-b828-6806-f9afc3858a97">
+      <Execution id="54caa59a-dbf0-4f0a-8888-c6e7738c01ed" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._4_Features.RealizarPedidoFeature" name="PedidoComItemDeQuantidadeZero" />
+    </UnitTest>
+    <UnitTest name="Criar Pedido Válido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="83c8436d-da29-4a42-ee89-2402147076b9">
+      <Execution id="546801d8-b5db-4b22-a1c2-529859c8b944" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._4_Features.RealizarPedidoFeature" name="CriarPedidoValido" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes._3_SystemTests.TestesSistema.CriarPedido_ComMultiplosItens_DeveCalcularTotalCorretamente" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="0ce555bd-96fe-91ea-33cd-64c2ed3683ef">
+      <Execution id="94ce76dd-b9bd-4d89-a92a-956247c8e121" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._3_SystemTests.TestesSistema" name="CriarPedido_ComMultiplosItens_DeveCalcularTotalCorretamente" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.UnitTests.PedidosTestes.Pedido_ComItens_QuantidadeZero_DeveSerInvalido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="7b340792-bb8d-535c-7798-38bd7a80e829">
+      <Execution id="a888553d-ccb7-436a-96b3-3beb548084e9" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.UnitTests.PedidosTestes" name="Pedido_ComItens_QuantidadeZero_DeveSerInvalido" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_ComValorAlto_DeveAplicarFreteGratis" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="e7794714-0393-8fe9-8489-64f214e479ab">
+      <Execution id="a637e27f-1f17-436b-9138-3eb6c3c94154" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._3_SystemTests.TestesSistema" name="Pedido_ComValorAlto_DeveAplicarFreteGratis" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.UnitTests.PedidosTestes.Pedido_SemItens_DeveSerInvalido" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="816fa289-14fb-c6aa-d449-c566223e270f">
+      <Execution id="1a8486c1-e4d8-4456-b5d5-dbbe167ea427" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.UnitTests.PedidosTestes" name="Pedido_SemItens_DeveSerInvalido" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao.Pedido_RemoverItem_DeveAtualizarTotal" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="77bbb999-888e-f129-ecd9-8c7e66b0efc0">
+      <Execution id="935b4b56-6c91-42f4-b08f-f8da9f647aff" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes.IntegrationTests.PedidoTestesIntegracao" name="Pedido_RemoverItem_DeveAtualizarTotal" />
+    </UnitTest>
+    <UnitTest name="Piramide.Testes._3_SystemTests.TestesSistema.Pedido_RemoverItem_DeveRecalcularTotal" storage="c:\users\jhonnatan\desktop\curso de pirâmide de testes\piramidetestes\piramide.testes\bin\debug\net9.0\piramide.testes.dll" id="14e11f89-9879-52df-9b76-be71f3388440">
+      <Execution id="fa6fc38d-b8ec-4316-bdc9-523d7f07ad60" />
+      <TestMethod codeBase="C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll" adapterTypeName="executor://xunit/VsTestRunner2/netcoreapp" className="Piramide.Testes._3_SystemTests.TestesSistema" name="Pedido_RemoverItem_DeveRecalcularTotal" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e7794714-0393-8fe9-8489-64f214e479ab" executionId="a637e27f-1f17-436b-9138-3eb6c3c94154" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2496a990-644d-c366-4c0c-441535abcbac" executionId="87a64dd0-3518-4d1d-8f37-e51a93f1a51e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0ce555bd-96fe-91ea-33cd-64c2ed3683ef" executionId="94ce76dd-b9bd-4d89-a92a-956247c8e121" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83c8436d-da29-4a42-ee89-2402147076b9" executionId="546801d8-b5db-4b22-a1c2-529859c8b944" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7e45332c-2b19-b828-6806-f9afc3858a97" executionId="54caa59a-dbf0-4f0a-8888-c6e7738c01ed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="85b799a7-5124-560f-d140-8da15b2fba31" executionId="9f2edb45-ea9e-4039-a921-72227dcc4135" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="173fd7f9-41ec-b51a-abe3-cb83c0aeecf9" executionId="8f7ff68f-4cc0-4533-b048-a6150a535bcd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b1cd5d42-2e2c-0ef6-22ef-16c964863ebc" executionId="154a39cb-cece-413b-aeb2-d00dd93c0cdb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="816fa289-14fb-c6aa-d449-c566223e270f" executionId="1a8486c1-e4d8-4456-b5d5-dbbe167ea427" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="77bbb999-888e-f129-ecd9-8c7e66b0efc0" executionId="935b4b56-6c91-42f4-b08f-f8da9f647aff" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b340792-bb8d-535c-7798-38bd7a80e829" executionId="a888553d-ccb7-436a-96b3-3beb548084e9" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cc0602bb-7efe-fb9d-d620-bb1d8c8db52f" executionId="ab87ef19-cc34-4499-a9c8-a2dbf9bedb62" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="0d529578-bf85-6621-56f1-4827b8488531" executionId="6a988ac3-e49c-4e9f-aa3e-1a94f0d87542" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="14e11f89-9879-52df-9b76-be71f3388440" executionId="fa6fc38d-b8ec-4316-bdc9-523d7f07ad60" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Resultados que não estão em uma lista" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="Todos os resultados carregados" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="14" executed="14" passed="14" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>[xUnit.net 00:00:00.00] xUnit.net VSTest Adapter v2.8.2+699d445a1a (64-bit .NET 9.0.0)&#xD;
+[xUnit.net 00:00:00.10]   Discovering: Piramide.Testes&#xD;
+[xUnit.net 00:00:00.15]   Discovered:  Piramide.Testes&#xD;
+[xUnit.net 00:00:00.15]   Starting:    Piramide.Testes&#xD;
+-&gt; Loading plugin C:\Users\Jhonnatan\Desktop\Curso de Pir�mide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\TechTalk.SpecFlow.xUnit.SpecFlowPlugin.dll&#xD;
+-&gt; Loading plugin C:\Users\Jhonnatan\Desktop\Curso de Pir�mide de testes\PiramideTestes\Piramide.Testes\bin\Debug\net9.0\Piramide.Testes.dll&#xD;
+-&gt; Using specflow.json&#xD;
+[xUnit.net 00:00:00.40]   Finished:    Piramide.Testes&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>
