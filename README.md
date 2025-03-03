@@ -37,38 +37,38 @@ A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negó
 
 ## 🔺 PiramideTestes
 
+## 🔺 PiramideTestes  
 
-PiramideTestes/
+**Estrutura do projeto:**  
 
-├── **Pyramid.Core/**                                         # 📚 Biblioteca de classes principal  
-│   ├── **Dominio/**                                          # 📂 Pasta de domínio  
-│   │   ├── 📄 Produto.cs           
-│   │   ├── 📄 ProdutoItem.cs       
-│   ├── 📄 Piramide.Core.csproj                               # Arquivo do projeto Core  
-│  
-├── **Piramide.Testes/**                                      # 🧪 Projeto de testes automatizados  
-│   ├── 📄 Piramide.Testes.csproj
-│
-│   ├── **1-UnitTests/**                                      # ✅ Testes unitários  
-│   │   ├── 📄 PedidosTestes.cs
-│
-│   ├── **2-IntegrationTests/**                               # 🔗 Testes de integração  
-│   │   ├── 📄 PedidoTestesIntegracao.cs
-│
-│   ├── **3-SystemTests/**                                    # 🖥️ Testes de sistema  
-│   │   ├── 📄 TestesSistema.cs
-│
-│   ├── **4-Features/**                                       # 📝 Testes BDD com SpecFlow  
-│   │   ├── 📄 Pedido.feature
-│
-│   ├── **5-Steps/**                                          # 🚶 Implementação dos passos dos testes BDD  
-│   │   ├── 📄 PedidoSteps.cs
-│
-│   ├── **6-TestResults/**                                    # 📊 Diretório para resultados de testes  
-│   │   ├── 📄 TestResults.trx      
-│  
-├── 📄 PiramideTestes.sln                                     # Solução do projeto  
+- **📚 Pyramid.Core/** - Biblioteca de classes principal  
+  - **📂 Dominio/** - Pasta de domínio  
+    - 📄 **Produto.cs**  
+    - 📄 **ProdutoItem.cs**  
+  - 📄 **Piramide.Core.csproj** - Arquivo do projeto Core  
 
+- **🧪 Piramide.Testes/** - Projeto de testes automatizados  
+  - 📄 **Piramide.Testes.csproj**  
+
+  - **✅ 1-UnitTests/** - Testes unitários  
+    - 📄 **PedidosTestes.cs**  
+
+  - **🔗 2-IntegrationTests/** - Testes de integração  
+    - 📄 **PedidoTestesIntegracao.cs**  
+
+  - **🖥️ 3-SystemTests/** - Testes de sistema  
+    - 📄 **TestesSistema.cs**  
+
+  - **📝 4-Features/** - Testes BDD com SpecFlow  
+    - 📄 **Pedido.feature**  
+
+  - **🚶 5-Steps/** - Implementação dos passos dos testes BDD  
+    - 📄 **PedidoSteps.cs**  
+
+  - **📊 6-TestResults/** - Diretório para resultados de testes  
+    - 📄 **TestResults.trx**  
+
+- 📄 **PiramideTestes.sln** - Solução do projeto  
 
 ---
 
