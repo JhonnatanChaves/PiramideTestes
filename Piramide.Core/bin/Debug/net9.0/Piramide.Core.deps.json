@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Piramide.Core/1.0.0": {
+        "runtime": {
+          "Piramide.Core.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Piramide.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

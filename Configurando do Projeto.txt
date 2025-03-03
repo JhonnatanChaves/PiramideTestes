@@ -5,7 +5,7 @@
 
 2. Criação do projeto de testes:
 
-  - dotnet new xunit -n Piramide.Tests
+  - dotnet new xunit -n Piramide.Testes
 
 3. Adicionando os projetos à solução:
 

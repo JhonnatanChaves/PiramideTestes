@@ -1,0 +1,15 @@
+﻿{
+  "bindingCulture": "pt-BR",
+  "language": {
+    "feature": "pt-BR"
+  },
+  "plugins": [
+    {
+      "name": "SpecFlow.XUnit",
+      "type": "Runtime"
+    }
+  ],
+  "stepAssemblies": [
+    { "assembly": "Piramide.Testes" }
+  ]
+}

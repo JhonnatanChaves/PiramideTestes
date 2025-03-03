@@ -1,0 +1,12 @@
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\bin\Debug\net9.0\Piramide.Core.deps.json
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\bin\Debug\net9.0\Piramide.Core.dll
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\bin\Debug\net9.0\Piramide.Core.pdb
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.AssemblyInfoInputs.cache
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.AssemblyInfo.cs
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.csproj.CoreCompileInputs.cache
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.sourcelink.json
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.dll
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\refint\Piramide.Core.dll
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\Piramide.Core.pdb
+C:\Users\Jhonnatan\Desktop\Curso de Pirâmide de testes\PiramideTestes\Piramide.Core\obj\Debug\net9.0\ref\Piramide.Core.dll
