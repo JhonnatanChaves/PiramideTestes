@@ -34,10 +34,7 @@ A aplicação desenvolvida é um **sistema de pedidos**, onde as regras de negó
 
 ## 📂 **Estrutura do Projeto**
 
-## 🔺 PiramideTestes
-
 ```
-
 PiramideTestes/
 
 📚 Biblioteca de classes principal  
