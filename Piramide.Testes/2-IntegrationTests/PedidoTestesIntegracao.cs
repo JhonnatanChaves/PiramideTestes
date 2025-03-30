@@ -14,8 +14,8 @@ namespace Piramide.Testes.IntegrationTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 3, PrecoUnitario = 20 });
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 2, Quantidade = 1, PrecoUnitario = 100 });
+            pedido.Itens.Add(new PedidoItem { Id = 1, Quantidade = 3, PrecoUnitario = 20 });
+            pedido.Itens.Add(new PedidoItem { Id = 2, Quantidade = 1, PrecoUnitario = 100 });
 
             var total = pedido.CalcularTotal();
 
@@ -35,7 +35,7 @@ namespace Piramide.Testes.IntegrationTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 0, PrecoUnitario = 20 });
+            pedido.Itens.Add(new PedidoItem { Id = 1, Quantidade = 0, PrecoUnitario = 20 });
 
             Assert.False(pedido.ValidarPedido());
         }
@@ -45,7 +45,7 @@ namespace Piramide.Testes.IntegrationTests
         {
             var pedido = new Pedido();
 
-            var item = new PedidoItem { ProdutoId = 1, Quantidade = 0, PrecoUnitario = 20 };
+            var item = new PedidoItem { Id = 1, Quantidade = 0, PrecoUnitario = 20 };
 
             pedido.Itens.Add(item);
             pedido.Itens.Remove(item);

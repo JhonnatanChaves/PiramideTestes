@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\piramide.testes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\piramide.testes.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\1-unittests\\pedidostestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\1-unittests\\pedidostestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\5-steps\\pedidosteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\5-steps\\pedidosteps.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,8 +11,32 @@
       "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\3-systemtests\\testessistema.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\4-features\\pedido.feature||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\4-features\\pedido.feature||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\2-integrationtests\\pedidotestesintegracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\2-integrationtests\\pedidotestesintegracao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.core\\domain\\helpers\\verificadadospizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|solutionrelative:piramide.core\\domain\\helpers\\verificadadospizza.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\1-unittests\\pizzamistatestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\1-unittests\\pizzamistatestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.core\\domain\\pizzamista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|solutionrelative:piramide.core\\domain\\pizzamista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.core\\domain\\pizzasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CD529A28-BE63-4802-BFBC-C967D56AEB74}|Piramide.Core\\Piramide.Core.csproj|solutionrelative:piramide.core\\domain\\pizzasimples.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\1-unittests\\pizzasimplestestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\1-unittests\\pizzasimplestestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|c:\\users\\jhonnatan\\desktop\\curso de pir\u00E2mide de testes\\piramidetestes\\piramide.testes\\1-unittests\\pedidostestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{88B52EE8-99D5-4821-A11F-2F5430D2ACAE}|Piramide.Testes\\Piramide.Testes.csproj|solutionrelative:piramide.testes\\1-unittests\\pedidostestes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,75 +46,123 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "PedidosTestes.cs",
-              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
-              "RelativeDocumentMoniker": "Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
-              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
-              "RelativeToolTip": "Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
-              "ViewState": "AgIAABcAAAAAAAAAAAAiwCMAAABfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T20:56:24.703Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TestesSistema.cs",
-              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
-              "RelativeDocumentMoniker": "Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
-              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
-              "RelativeToolTip": "Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAswB4AAABeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T20:54:29.71Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Piramide.Testes",
-              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\Piramide.Testes.csproj",
-              "RelativeDocumentMoniker": "Piramide.Testes\\Piramide.Testes.csproj",
-              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\Piramide.Testes.csproj",
-              "RelativeToolTip": "Piramide.Testes\\Piramide.Testes.csproj",
-              "ViewState": "AgIAABoAAAAAAAAAAAAAACUAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-03T20:49:20.781Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "PedidoSteps.cs",
               "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\5-Steps\\PedidoSteps.cs",
               "RelativeDocumentMoniker": "Piramide.Testes\\5-Steps\\PedidoSteps.cs",
               "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\5-Steps\\PedidoSteps.cs",
               "RelativeToolTip": "Piramide.Testes\\5-Steps\\PedidoSteps.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwDIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAsAAAAAAAAAAAArwBsAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-03T19:57:45.028Z",
+              "WhenOpened": "2025-03-30T18:51:44.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestesSistema.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
+              "RelativeDocumentMoniker": "Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
+              "RelativeToolTip": "Piramide.Testes\\3-SystemTests\\TestesSistema.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAApwDIAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:51:24.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PedidoTestesIntegracao.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\2-IntegrationTests\\PedidoTestesIntegracao.cs",
+              "RelativeDocumentMoniker": "Piramide.Testes\\2-IntegrationTests\\PedidoTestesIntegracao.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\2-IntegrationTests\\PedidoTestesIntegracao.cs",
+              "RelativeToolTip": "Piramide.Testes\\2-IntegrationTests\\PedidoTestesIntegracao.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAWwC8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:50:58.075Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "PizzaSimplesTestes.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PizzaSimplesTestes.cs",
+              "RelativeDocumentMoniker": "Piramide.Testes\\1-UnitTests\\PizzaSimplesTestes.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PizzaSimplesTestes.cs",
+              "RelativeToolTip": "Piramide.Testes\\1-UnitTests\\PizzaSimplesTestes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:35:46.947Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "VerificaDadosPizza.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\Helpers\\VerificaDadosPizza.cs",
+              "RelativeDocumentMoniker": "Piramide.Core\\Domain\\Helpers\\VerificaDadosPizza.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\Helpers\\VerificaDadosPizza.cs",
+              "RelativeToolTip": "Piramide.Core\\Domain\\Helpers\\VerificaDadosPizza.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwBMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T18:02:50.56Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "PizzaSimples.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\PizzaSimples.cs",
+              "RelativeDocumentMoniker": "Piramide.Core\\Domain\\PizzaSimples.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\PizzaSimples.cs",
+              "RelativeToolTip": "Piramide.Core\\Domain\\PizzaSimples.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAQwDAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:31:03.563Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PizzaMista.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\PizzaMista.cs",
+              "RelativeDocumentMoniker": "Piramide.Core\\Domain\\PizzaMista.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Core\\Domain\\PizzaMista.cs",
+              "RelativeToolTip": "Piramide.Core\\Domain\\PizzaMista.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAA1wCEAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:05:29.21Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Pedido.feature",
-              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\4-Features\\Pedido.feature",
-              "RelativeDocumentMoniker": "Piramide.Testes\\4-Features\\Pedido.feature",
-              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\4-Features\\Pedido.feature",
-              "RelativeToolTip": "Piramide.Testes\\4-Features\\Pedido.feature",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-03-03T19:50:56.837Z",
+              "Title": "PizzaMistaTestes.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PizzaMistaTestes.cs",
+              "RelativeDocumentMoniker": "Piramide.Testes\\1-UnitTests\\PizzaMistaTestes.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PizzaMistaTestes.cs",
+              "RelativeToolTip": "Piramide.Testes\\1-UnitTests\\PizzaMistaTestes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T17:04:50.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PedidosTestes.cs",
+              "DocumentMoniker": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
+              "RelativeDocumentMoniker": "Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
+              "ToolTip": "C:\\Users\\Jhonnatan\\Desktop\\Curso de Pir\u00E2mide de testes\\PiramideTestes\\Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
+              "RelativeToolTip": "Piramide.Testes\\1-UnitTests\\PedidosTestes.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAIA2wC4AAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-30T14:23:49.549Z",
               "EditorCaption": ""
             }
           ]

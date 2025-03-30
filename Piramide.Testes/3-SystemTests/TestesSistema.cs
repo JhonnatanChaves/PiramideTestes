@@ -15,8 +15,8 @@ namespace Piramide.Testes._3_SystemTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 3, PrecoUnitario = 50 });
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 2, Quantidade = 1, PrecoUnitario = 150 });
+            pedido.Itens.Add(new PedidoItem { Id = 1, Quantidade = 3, PrecoUnitario = 50 });
+            pedido.Itens.Add(new PedidoItem { Id = 2, Quantidade = 1, PrecoUnitario = 150 });
 
             var total = pedido.CalcularTotal();
 
@@ -28,7 +28,7 @@ namespace Piramide.Testes._3_SystemTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 3, PrecoUnitario = 250 });                       
+            pedido.Itens.Add(new PedidoItem { Id = 1, Quantidade = 3, PrecoUnitario = 250 });                       
 
             Assert.True(pedido.CalcularTotal() > 500);
         }
@@ -38,7 +38,7 @@ namespace Piramide.Testes._3_SystemTests
         {
             var pedido = new Pedido();
 
-            pedido.Itens.Add(new PedidoItem { ProdutoId = 1, Quantidade = 0, PrecoUnitario = 100 });
+            pedido.Itens.Add(new PedidoItem { Id = 1, Quantidade = 0, PrecoUnitario = 100 });
 
             Assert.False(pedido.ValidarPedido());
         }
@@ -48,7 +48,7 @@ namespace Piramide.Testes._3_SystemTests
         {
             var pedido = new Pedido();
 
-            var item = new PedidoItem{ ProdutoId = 1, Quantidade = 4, PrecoUnitario = 30 };
+            var item = new PedidoItem{ Id = 1, Quantidade = 4, PrecoUnitario = 30 };
             
             pedido.Itens.Add(item);
             pedido.Itens.Remove(item);

@@ -25,7 +25,7 @@ namespace Piramide.Testes._5_Steps
         {
             _pedido.Itens.Add(new PedidoItem
             {
-                ProdutoId = 1,
+                Id = 1,
                 Quantidade = quantidade,
                 PrecoUnitario = precoUnitario
             });

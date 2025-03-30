@@ -11,8 +11,17 @@ namespace Piramide.Core.Domain
         public int Id { get; set; }
 
         public List<PedidoItem> Itens { get; set; } = new List<PedidoItem>();
+
+        public bool IndEntrega { get; set; }
+
+        private const decimal TAXA_ENTREGA = 5.00m;
+
+
         public decimal CalcularTotal()
         {
+            if(IndEntrega)
+                return Itens.Sum(item => item.CalcularSubtotal()) + TAXA_ENTREGA;
+
             return Itens.Sum(item => item.CalcularSubtotal());
         }
 
